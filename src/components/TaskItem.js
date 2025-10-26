@@ -7,7 +7,6 @@ import { CATEGORY_OPTIONS } from "../theme";
 
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
-
 const statusTokens = (theme) => ({
   pendente: {
     label: "Pendente",

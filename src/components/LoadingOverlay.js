@@ -30,7 +30,6 @@ const LoadingOverlay = ({ visible }) => {
   );
 };
 
-
 const styles = StyleSheet.create({
   backdrop: {
     flex: 1,

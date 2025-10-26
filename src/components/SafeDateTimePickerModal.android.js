@@ -87,5 +87,4 @@ DateTimePickerModal.propTypes = {
   minimumDate: PropTypes.instanceOf(Date)
 };
 
-
 export default DateTimePickerModal;
