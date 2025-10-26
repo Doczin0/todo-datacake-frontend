@@ -22,6 +22,7 @@ const readStorage = (key) => {
   return Object.prototype.hasOwnProperty.call(fallbackStore, key) ? fallbackStore[key] : null;
 };
 
+
 const writeStorage = (key, value) => {
   if (hasLocalStorage()) {
     try {
