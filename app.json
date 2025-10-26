@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Todo DataCake",
+    "slug": "todo-datacake",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "todoapp",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "entryPoint": "./index.js"
+  }
+}
