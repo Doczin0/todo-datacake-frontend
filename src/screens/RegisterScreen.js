@@ -26,6 +26,7 @@ const RegisterScreen = ({ navigation }) => {
     setForm((prev) => ({ ...prev, [field]: value }));
   };
 
+  
   const passwordMismatch = useMemo(
     () => form.password && form.confirmPassword && form.password !== form.confirmPassword,
     [form.password, form.confirmPassword]

@@ -28,6 +28,7 @@ const VerifyEmailScreen = ({ navigation, route }) => {
     return () => globalThis.clearTimeout(timeout);
   }, [verificationDone, navigation]);
 
+  
   const handleVerify = async () => {
     if (!email || !code) {
       pushNotification({ type: "warning", message: "Informe o e-mail e o código recebido." });

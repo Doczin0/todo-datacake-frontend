@@ -28,6 +28,7 @@ const normalizeChecklist = (items = []) =>
     order: item.order ?? index
   }));
 
+  
 const TaskFormScreen = ({ navigation, route }) => {
   const task = route.params?.task ?? null;
   const { theme } = useThemeMode();

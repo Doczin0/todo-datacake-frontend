@@ -42,6 +42,7 @@ const LoginScreen = ({ navigation }) => {
     }
   };
 
+  
   const footer = (
     <View style={styles.footerLinks}>
       <Text style={[styles.footerText, { color: theme.palette.textMuted }]}>Ainda não tem uma conta?</Text>

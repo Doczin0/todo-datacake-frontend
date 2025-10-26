@@ -9,6 +9,7 @@ import { AuthContext } from "../context/AuthContext";
 import { useThemeMode } from "../context/ThemeContext";
 import { useNotifications } from "../context/NotificationContext";
 
+
 const ForgotPasswordScreen = ({ navigation }) => {
   const { requestPasswordReset } = useContext(AuthContext);
   const { theme } = useThemeMode();
