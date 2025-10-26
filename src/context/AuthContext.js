@@ -14,6 +14,7 @@ export const AuthContext = createContext({
   confirmPasswordReset: async () => {}
 });
 
+
 const extractErrorMessage = (error, fallback) => {
   const data = error?.response?.data;
   if (!data) {
