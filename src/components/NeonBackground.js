@@ -19,6 +19,7 @@ const NeonBackground = ({ children }) => {
   );
 };
 
+
 const styles = StyleSheet.create({
   background: {
     flex: 1

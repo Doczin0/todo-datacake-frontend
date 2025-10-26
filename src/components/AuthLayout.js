@@ -38,6 +38,7 @@ const AuthLayout = ({ title, subtitle, accent, children, footer }) => {
   );
 };
 
+
 const styles = StyleSheet.create({
   scroll: {
     flexGrow: 1,

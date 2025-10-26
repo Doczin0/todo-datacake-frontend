@@ -89,6 +89,7 @@ const shadeColor = (color, percent) => {
   );
 };
 
+
 const styles = StyleSheet.create({
   base: {
     flexDirection: "row",

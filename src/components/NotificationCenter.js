@@ -24,6 +24,7 @@ const NotificationToast = ({ notification, onDismiss, palette, shadows }) => {
 
   const colors = getNotificationColors(palette, notification.type);
 
+  
   return (
     <Pressable
       onPress={() => onDismiss(notification.id)}

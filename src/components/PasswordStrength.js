@@ -24,6 +24,7 @@ const PasswordStrength = ({ password }) => {
   const colorIndex = Math.min(Math.max(satisfied - 1, 0), colors.length - 1);
   const currentColor = satisfied === 0 ? palette.danger : colors[colorIndex];
 
+  
   return (
     <View style={styles.container}>
       <View
